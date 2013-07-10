@@ -1,17 +1,21 @@
 <?xml version="1.0"?>
 <package>
-  <name>kobuki_softapps</name>
+  <name>kobuki_softnode</name>
   <version>0.0.0</version>
-  <description>The kobuki_softapps package</description>
+  <description>
+    Soft kobuki impementation meta package
+  </description>
 
   <author email="jihoonl@yujinrobot.com">Jihoon Lee</author>
   <maintainer email="jihoonl@yujinrobot.com">Jihoon Lee</maintainer>
   <license>BSD</license>
+  <url>http://ros.org/wiki/kobuki</url>
 
   <buildtool_depend>catkin</buildtool_depend>
   <run_depend>kobuki_softnode</run_depend>
-  <run_depend>fake_localization</run_depend>
-  <run_depend>move_base</run_depend>
-  <run_depend>map_server</run_depend>
-  <run_depend>rviz</run_depend>
+  <run_depend>kobuki_softapps</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
 </package>
