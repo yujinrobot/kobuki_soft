@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>kobuki_softnode</name>
+  <name>kobuki_soft</name>
   <version>0.0.0</version>
   <description>
     Soft kobuki impementation meta package
