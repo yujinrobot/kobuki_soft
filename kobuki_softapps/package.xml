@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>kobuki_softapps</name>
-  <version>0.0.0</version>
+  <version>0.0.1</version>
   <description>The kobuki_softapps package</description>
 
   <author email="jihoonl@yujinrobot.com">Jihoon Lee</author>
