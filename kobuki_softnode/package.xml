@@ -19,6 +19,8 @@
   <build_depend>nav_msgs</build_depend>
   <build_depend>nodelet</build_depend>
   <build_depend>tf</build_depend>
+  <run_depend>diagnostic_aggregator</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>sensor_msgs</run_depend>
