@@ -15,6 +15,7 @@ add_library(kobuki_softnode src/library/fake_kobuki_ros.cpp
                             src/library/fake_kobuki.cpp
 )
 target_link_libraries(kobuki_softnode ${catkin_LIBRARIES})
+add_dependencies(kobuki_softnode kobuki_msgs_gencpp)
 
 add_library(softkobuki_nodelet src/nodelet/kobuki_nodelet.cpp)
 target_link_libraries(softkobuki_nodelet kobuki_softnode)
