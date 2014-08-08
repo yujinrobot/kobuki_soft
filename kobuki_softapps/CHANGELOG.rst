@@ -2,8 +2,8 @@
 Changelog for package kobuki_softapps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.0 (2014-08-08)
+------------------
 * use dwa planner
 * Contributors: Jihoon Lee
 
