@@ -1,8 +1,15 @@
 <launch>
+ <arg name="delta_x"   default="0.0"/>
+ <arg name="delta_y"   default="0.0"/>
+ <arg name="delta_yaw" default="0.0"/>
+
   <include file="$(find kobuki_softnode)/launch/full.launch"/>
 
   <node pkg="fake_localization" name="fake_localization" type="fake_localization">
     <remap from="base_pose_ground_truth" to="odom"/>
+    <param name="delta_x"   value="$(arg delta_x)"/>
+    <param name="delta_y"   value="$(arg delta_y)"/>
+    <param name="delta_yaw" value="$(arg delta_yaw)"/>
   </node>
 
   <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
