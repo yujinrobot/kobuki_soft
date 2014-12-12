@@ -2,6 +2,9 @@
 Changelog for package kobuki_softnode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.1.0 (2014-08-08)
 ------------------
 * add message dependency

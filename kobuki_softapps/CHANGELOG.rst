@@ -2,6 +2,11 @@
 Changelog for package kobuki_softapps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add delta params close `#1 <https://github.com/yujinrobot/kobuki_soft/issues/1>`_
+* Contributors: Jihoon Lee
+
 0.1.0 (2014-08-08)
 ------------------
 * use dwa planner
