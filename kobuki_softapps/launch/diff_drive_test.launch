@@ -12,7 +12,7 @@
     <param name="spin_rate" value="25"/>
     <param name="start_enabled" value="true"/>
     <param name="base_frame_name" value="base_footprint"/>
-    <param name="goal_frame_name" value="base_goal_pose"/>
+    <param name="goal_frame_name" value="base_goal_pose2"/>
     <param name="v_min" value="0.02"/>
     <param name="v_max" value="0.15"/>
     <param name="w_min" value="0.05"/>
@@ -26,7 +26,12 @@
     <remap from="diff_drive_pose_controller/command_velocity" to="mobile_base/commands/velocity"/>
   </node>
 
+<!--
   <node pkg="tf" type="static_transform_publisher" name="base_goal_pose_tf"
         args="1.0 0.0 0 1.57 0.0 0.0 base_goal_pose map 100"/>
-</launch>
+-->
 
+  <node pkg="tf" type="static_transform_publisher" name="base_goal_pose_tf2"
+        args="1.0 0.0 0 3.14 0.0 0.0 base_goal_pose2 map 100"/>
+
+</launch>
