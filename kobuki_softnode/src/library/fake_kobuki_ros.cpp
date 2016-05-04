@@ -138,6 +138,10 @@ namespace kobuki
     this->kobuki.odom.pose.pose.position.y = this->kobuki.odom_pose[1];
     this->kobuki.odom.pose.pose.position.z = 0;
     this->kobuki.odom.pose.pose.orientation = tf::createQuaternionMsgFromYaw(this->kobuki.odom_pose[2]);
+
+    // We should update the twist of the odometry
+    this->kobuki.odom.twist.twist.linear.x = this->kobuki.odom_vel[0];
+    this->kobuki.odom.twist.twist.angular.z = this->kobuki.odom_vel[2];
   }
 
   void FakeKobukiRos::updateTF(geometry_msgs::TransformStamped& odom_tf)
