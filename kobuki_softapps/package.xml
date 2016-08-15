@@ -4,8 +4,8 @@
   <version>0.1.2</version>
   <description>The kobuki_softapps package</description>
 
-  <author email="jihoonl@yujinrobot.com">Jihoon Lee</author>
-  <maintainer email="jihoonl@yujinrobot.com">Jihoon Lee</maintainer>
+  <author>Jihoon Lee</author>
+  <maintainer email="jihoonlee.in@gmail.com">Jihoon Lee</maintainer>
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>

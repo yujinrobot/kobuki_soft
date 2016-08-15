@@ -6,8 +6,8 @@
     Soft kobuki impementation meta package
   </description>
 
-  <author email="jihoonl@yujinrobot.com">Jihoon Lee</author>
-  <maintainer email="jihoonl@yujinrobot.com">Jihoon Lee</maintainer>
+  <author>Jihoon Lee</author>
+  <maintainer email="jihoonlee.in@gmail.com">Jihoon Lee</maintainer>
   <license>BSD</license>
   <url>http://ros.org/wiki/kobuki</url>
 

@@ -1,5 +1,5 @@
 <launch>
-  <arg name="map_name" default="$(find yujin_maps)/maps/6th_floor_plan.yaml"/>
+  <arg name="map_name"/>
 
   <include file="$(find kobuki_softapps)/launch/nav.launch"/>
 
