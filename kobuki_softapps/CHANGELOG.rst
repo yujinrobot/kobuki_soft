@@ -2,6 +2,11 @@
 Changelog for package kobuki_softapps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* remove yujin map dependency. update maintainer
+* Contributors: Jihoon Lee
+
 0.1.2 (2016-08-15)
 ------------------
 
