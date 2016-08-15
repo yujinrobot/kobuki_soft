@@ -2,6 +2,11 @@
 Changelog for package kobuki_softnode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add twist information into the odometry fake_kobuki_ros publishes
+* Contributors: Ryosuke Tajima
+
 0.1.1 (2014-12-12)
 ------------------
 

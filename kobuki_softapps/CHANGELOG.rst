@@ -2,6 +2,9 @@
 Changelog for package kobuki_softapps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.1.1 (2014-12-12)
 ------------------
 * add delta params close `#1 <https://github.com/yujinrobot/kobuki_soft/issues/1>`_
